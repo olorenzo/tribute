@@ -71,6 +71,14 @@ font-family: 'Indie Flower', cursive;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 992px) {
+  .left,
+  form{
+    width: 50%
+  }
 }
 input,
 textarea{
