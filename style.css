@@ -1,0 +1,85 @@
+body {
+    background-color: #dddddd;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+.tittle {
+  text-align: center;
+  font-size: 70px;
+  color:red;
+  font-style:"Eagle Lake", oblique;
+  transition: all 3000ms;
+}
+
+.tittle:hover {
+  text-shadow: 20px -45px 0 black;
+  transition: all 3000ms;
+  background-color: #555555;
+}
+
+.cr7 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.best {
+  text-align: center;
+  font-size:35px;
+  display: block;
+}
+
+.details {
+  text-align: center;
+  font-size: 80px;
+  background: brown;
+  background-color: yellow;
+  display:grid;
+
+}
+
+.individual {
+  font-size: 30px
+  font-style:oblique;
+}
+
+.shadow{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+font-family: 'Indie Flower', cursive;
+}
+
+.video:hover{
+  text-shadow: 20px -45px 0 black;
+  transition: all 3000ms;
+  background-color: #555555;
+  font-size: 45px;
+  text-align: right;
+
+}
+.form-container{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+input,
+textarea{
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%
+}
+input:focus,
+textarea:focus {
+  border-color: red;
+}
