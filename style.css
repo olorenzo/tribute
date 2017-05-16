@@ -91,3 +91,6 @@ input:focus,
 textarea:focus {
   border-color: red;
 }
+.contact-form button.sent {
+  background-color: #6F7;
+}
